@@ -6,6 +6,7 @@ h1{
 }
 @media (max-width: 768px) {
 display:flex;
+    margin:15px;
 
 
 }
