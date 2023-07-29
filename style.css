@@ -4,6 +4,11 @@ body{
 h1{
     text-align: center;
 }
+@media (max-width: 768px) {
+display:flex;
+
+
+}
 .Box{
     display: inline-block;
     border: 1px solid black;
