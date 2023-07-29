@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.Box{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 0 0 0 10px;
+    background-color: gray;
+    font-family: Helvetica,serif;
+    text-align: left;
+
+}
+.Box .Chicken_heading{
+    margin-top: 0;
+    margin-left: 220px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-right:25px;
+    background-color: red;
+    font-family: Helvetica,serif;
+}
+.Box .Beef_heading{
+    margin-top: 0;
+    margin-left: 220px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 35px;
+    padding-right: 45px;
+    background-color: aqua;
+    font-family: Helvetica,serif;
+}
+.Box .sushi_heading{
+    margin-top: 0;
+    margin-left: 220px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 35px;
+    padding-right: 45px;
+    background-color: orange;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
