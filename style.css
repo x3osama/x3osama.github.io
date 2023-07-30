@@ -4,20 +4,19 @@ body{
 h1{
     text-align: center;
 }
-@media (max-width: 768px) {
-display:flex;
-    margin-top:15px;
-
-
+.flex_container{
+    display: flex;
+flex-wrap: wrap;
 }
+
 .Box{
-    display: inline-block;
     border: 1px solid black;
     margin-left: 10px;
     padding: 0 0 0 10px;
     background-color: gray;
     font-family: Helvetica,serif;
     text-align: left;
+    width: 350px;
 
 }
 .Box .Chicken_heading{
@@ -26,7 +25,7 @@ display:flex;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     padding-left: 15px;
-    padding-right:25px;
+    padding-right:0;
     background-color: red;
     font-family: Helvetica,serif;
 }
